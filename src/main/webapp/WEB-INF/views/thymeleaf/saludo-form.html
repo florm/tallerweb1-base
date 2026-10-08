@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+  <form th:action="@{/mostrar-saludo}" method="GET">
+      <label>Escriba su nombre:</label>
+    <input type="text" name="nombre" required />
+      <button type="submit">
+          Saludar
+      </button>
+  </form>
+
+
+</body>
+</html>
